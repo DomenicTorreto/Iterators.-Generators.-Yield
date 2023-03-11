@@ -13,7 +13,7 @@ class FlatIterator:
             raise StopIteration
         list_ = self.list_of_list[self.counter_2]
         self.counter_1 += 1
-        if len(list) == (self.counter_1 + 1):
+        if len(list_) == (self.counter_1 + 1):
             self.counter_2 += 1
             self.counter_1 = -1
         item = list_[self.counter_1]
